@@ -1,0 +1,2 @@
+
+Die **Selbsttätigkeit** zeigt sich als **innere Tätigkeit des Menschen**, die durch **pflanzliche Ernährung** gefördert wird ([[GA068d (27.) ERNÄHRUNGSFRAGEN IM LICHTE DER GEISTESWISSENSCHAFT, München, 8. Januar 1909|GA068d/27]]). Diese **eigenständige Aktivität** des menschlichen Wesens wird durch **bewusste Lebensführung** unterstützt und bildet die **Grundlage** für **geistige Selbständigkeit**.

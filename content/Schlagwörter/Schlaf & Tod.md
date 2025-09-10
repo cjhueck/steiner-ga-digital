@@ -1,0 +1,2 @@
+
+**Schlaf und Tod** stellen **verwandte Zustände** durch Trennung verschiedener Wesensglieder vom physischen Leib dar ([[GA068b (45.) DIE RÄTSELFRAGEN DES DASEINS, Basel, 5. Februar 1907|GA068b/45]]). Diese **Verwandtschaft** zeigt die **grundlegende Ähnlichkeit** der Bewusstseinsprozesse, wobei der Tod als **endgültige Trennung** und der Schlaf als **temporäre Lösung** der Wesensverbindungen verstanden werden kann.

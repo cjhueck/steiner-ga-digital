@@ -1,0 +1,2 @@
+
+Der **Symbolismus** zeigt die **charakteristische Eigenschaft** des **Traumbewusstseins**, **Sinneseindrücke** in **Sinnbilder** und **dramatische Handlungen** umzusetzen ([[GA052 (12.) THEOSOPHIE UND SOMNAMBULISMUS, Berlin, 7. März 1904|GA052/12]]) und die **Darstellung geistiger Wahrheiten** durch **sinnliche Gestalten und Bilder** ([[GA057 (3.) GOETHES GEHEIME OFFENBARUNG ESOTERISCH, Berlin, 24. Oktober 1908|GA057/3]]). Er dokumentiert **natürliche Bewusstseinsformen** und **künstlerische Darstellungsweisen**.

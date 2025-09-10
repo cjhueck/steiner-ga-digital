@@ -1,0 +1,2 @@
+
+Das **übersinnliche Christus-Ereignis** bildete die fundamentale Grundlage für Paulus' gesamte Lehr- und Missionstätigkeit ([[GA057 (5.) BIBEL UND WEISHEIT II, Berlin, 14. November 1908|GA057/5]]). Diese **geistige Christus-Schau** des Apostels wird als exemplarischer Typus zukünftiger spiritueller Erfahrungen der Menschheit verstanden ([[GA069c (1.) DER CHRISTUS IM ZWANZIGSTEN JAHRHUNDERT, Kristiania (Oslo), 13. Juni 1910|GA069c/1]]).

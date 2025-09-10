@@ -1,0 +1,2 @@
+
+Die biblischen Gestalten repräsentieren **Gruppenbewusstsein ganzer Generationen** ([[GA068a (32.) BIBEL UND WEISHEIT II, München, 24. Mai 1907|GA068a/32]], [[GA068a (34.) BIBEL UND WEISHEIT II, Leipzig 9. Juni 1907|GA068a/34]]) als Bezeichnungen für **Bewusstseinskreise ganzer Generationenfolgen**, nicht für einzelne Personen ([[GA068a (30.) BIBEL UND WEISHEIT, Berlin, 25. und 26. April 1907|GA068a/30]]).

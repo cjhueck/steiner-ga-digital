@@ -1,0 +1,2 @@
+
+**Chit-Ananda-Sat** repräsentiert die **vedantische Dreiteilung** in **äußere Wahrnehmung, Beseligung und erhabene Existenz** ([[GA051 (16.) DRITTER VORTRAG PLATONISCHE MYSTIK UND DOCTA IGNORANTIA, 12. November 1904|GA051/16]]). Diese indische Philosophie gliedert das Bewusstsein in drei fundamentale Aspekte: das erkennende Bewusstsein (Chit), die Glückseligkeit (Ananda) und das reine Sein (Sat).

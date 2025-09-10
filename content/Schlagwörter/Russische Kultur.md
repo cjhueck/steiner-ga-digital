@@ -1,0 +1,2 @@
+
+Die **russische Kultur** zeigt sich als **noch undifferenzierte Kultur** und fungiert als **Träger des künftigen spirituellen Kulturideals**, da sie die seelischen Voraussetzungen für die sechste nachatlantische Kulturepoche in sich trägt ([[GA053 (5.) THEOSOPHIE UND TOLSTOI, Berlin, 3. November 1904|GA053/5]]).

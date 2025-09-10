@@ -1,0 +1,2 @@
+
+**Zyklische Gesetze** manifestieren sich als **periodische Naturgesetzmäßigkeiten**, die sowohl **Krankheitsentstehung** als auch **Kulturentwicklung** bestimmen ([[GA053 (22.) DIE MEDIZINISCHE FAKULTÄT UND DIE THEOSOPHIE, Berlin, 25. Mai 1905|GA053/22]]).

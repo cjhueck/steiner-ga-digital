@@ -1,0 +1,2 @@
+
+Gut und Böse zeigen sich als **moralische Unterscheidung**, die nur aus der geistigen Welt heraus möglich ist ([[GA069e (12.) DIE GEISTESWISSENSCHAFT UND DIE GEISTIGEN ZIELE UNSERER ZEIT, Nürnberg, 8. November 1913|GA069e/12]]).

@@ -1,0 +1,2 @@
+
+Eduard von Hartmann dient als **Philosoph** und Beispiel für notwendiges **Gegnerverstän**dnis durch Selbstkritik ([[GA069e (2.) WIE WIDERLEGT MAN THEOSOPHIE, Stuttgart, 27. November 1911|GA069e/2]]). Ihm wurde es "schwül" beim Erleben des selbständigen **Begriffslebens** bei Ludwig Haller ([[GA076-Die befruchtende Wirkung der Anthroposophie auf die Fachwissenschaften/GA076 (2.) PHILOSOPHIE, Erster Vortrag, Dornach, 4. April 1921|GA076/2]]).
