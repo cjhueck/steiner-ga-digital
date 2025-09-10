@@ -1,0 +1,2 @@
+
+Die **spirituelle Erziehung** umfasst **Erziehung** nach **geistigen Gesetzmäßigkeiten** unter **Berücksichtigung** übersinnlicher Entwicklung ([[GA068d (19.) DER LEBENSLAUF DES MENSCHEN VOM GEHEIMWISSENSCHAFTLICHEN STANDPUNKT, Karlsruhe, 6. Februar 1908|GA068d/19]]). Sie erfordert das **Verständnis** der **geistig-seelischen Natur** des Kindes und die **Anpassung** der **Erziehungsmethoden** an die **verschiedenen Entwicklungsphasen**.

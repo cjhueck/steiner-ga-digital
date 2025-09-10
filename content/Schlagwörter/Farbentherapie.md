@@ -1,0 +1,2 @@
+
+Die **Farbentherapie** repräsentiert eine geisteswissenschaftliche **Heilweise**, die über die **Seelenwirkung** der Farben auf den physischen Organismus einwirkt ([[GA057 (8.) GESUNDHEITSFRAGEN IM LICHTE DER GEISTESWISSENSCHAFT, Berlin, 14. Januar 1909|GA057/8]]). Als neue Heilmethode wirkt sie über **Farbenvorstellungen** auf den Astralleib ([[GA068d (30.) GESUNDHEITSFRAGEN IM LICHTE DER GEISTESWISSENSCHAFT, Stuttgart, 8. Februar 1909|GA068d/30]]). Diese Therapieform nutzt die seelisch-geistigen Wirkungen der Farben für Heilungsprozesse.

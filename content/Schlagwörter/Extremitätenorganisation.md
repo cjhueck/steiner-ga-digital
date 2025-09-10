@@ -1,0 +1,2 @@
+
+Die **Extremitätenorganisation** umfasst die **Überentwicklung der Gliedmaßen** als **Träger** der **imaginativen Kräfte** für das **nachtodliche Leben** ([[GA067 (10.) DER ÜBERSINNLICHE MENSCH, Dritter Vortrag, Berlin, 20. April 1918|GA067/10]]).

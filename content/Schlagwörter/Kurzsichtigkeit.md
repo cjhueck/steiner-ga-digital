@@ -1,0 +1,2 @@
+
+Die Kurzsichtigkeit ist **Folge der passiven Haltung** des Auges im gegenwärtigen Erziehungssystem ohne **seelische Anregung** ([[GA068d (21.) DAS GESUNDHEITSFIEBER IM LICHTE DER GEISTESWISSENSCHAFT, Berlin, 27. Februar 1908|GA068d/21]]).

@@ -1,0 +1,965 @@
+/* ---------------------------------------------------------------------------
+
+Minimal Theme by @kepano
+
+User interface replacement for Obsidian.
+
+Designed to be used with the Minimal Theme Settings 
+plugin and the Hider plugin.
+
+Sponsor my work:
+https://www.buymeacoffee.com/kepano
+
+Readme:
+https://github.com/kepano/obsidian-minimal
+
+-----------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2020-2023 Stephan Ango (@kepano)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+body{--font-text-theme:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Ubuntu,sans-serif;--font-editor-theme:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Ubuntu,sans-serif;--font-monospace-theme:Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;--font-interface-theme:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Ubuntu,sans-serif;--font-editor:var(--font-editor-override),var(--font-text-override),var(--font-editor-theme)}body{--blockquote-style:normal;--blockquote-color:var(--text-muted);--blockquote-border-thickness:1px;--blockquote-border-color:var(--quote-opening-modifier);--embed-block-shadow-hover:none;--font-ui-smaller:12px;--normal-weight:400;--bold-weight:600;--link-weight:inherit;--h1-size:1.125em;--h2-size:1.05em;--h3-size:1em;--h4-size:0.90em;--h5-size:0.85em;--h6-size:0.85em;--h1-weight:600;--h2-weight:600;--h3-weight:500;--h4-weight:500;--h5-weight:500;--h6-weight:400;--h1-variant:normal;--h2-variant:normal;--h3-variant:normal;--h4-variant:small-caps;--h5-variant:small-caps;--h6-variant:small-caps;--h1-style:normal;--h2-style:normal;--h3-style:normal;--h4-style:normal;--h5-style:normal;--h6-style:normal;--line-width:40rem;--line-height:1.5;--max-width:88%;--max-col-width:18em;--icon-muted:0.5;--border-width:1px;--nested-padding:1.1em;--folding-offset:10px;--list-edit-offset:0.5em;--list-indent:2em;--list-spacing:0.075em;--input-height:32px;--header-height:40px;--mobile-left-sidebar-width:280pt;--mobile-right-sidebar-width:240pt;--top-left-padding-y:0px;--image-muted:0.7;--spacing-p:0.75em}.mod-macos{--top-left-padding-y:24px}body{--base-h:0;--base-s:0%;--base-l:96%;--accent-h:201;--accent-s:17%;--accent-l:50%}.theme-dark,.theme-light{--color-red-rgb:208,66,85;--color-orange-rgb:213,118,63;--color-yellow-rgb:229,181,103;--color-green-rgb:168,195,115;--color-cyan-rgb:115,187,178;--color-blue-rgb:108,153,187;--color-purple-rgb:158,134,200;--color-pink-rgb:176,82,121;--color-red:#d04255;--color-orange:#d5763f;--color-yellow:#e5b567;--color-green:#a8c373;--color-cyan:#73bbb2;--color-blue:#6c99bb;--color-purple:#9e86c8;--color-pink:#b05279}.theme-light,.theme-light.minimal-default-light,body .excalidraw{--bg1:white;--bg2:hsl( var(--base-h), var(--base-s), var(--base-l) );--bg3:hsla( var(--base-h), var(--base-s), calc(var(--base-l) - 50%), 0.12 );--ui1:hsl( var(--base-h), var(--base-s), calc(var(--base-l) - 6%) );--ui2:hsl( var(--base-h), var(--base-s), calc(var(--base-l) - 12%) );--ui3:hsl( var(--base-h), var(--base-s), calc(var(--base-l) - 20%) );--tx1:hsl( var(--base-h), var(--base-s), calc(var(--base-l) - 90%) );--tx2:hsl( var(--base-h), calc(var(--base-s) - 20%), calc(var(--base-l) - 45%) );--tx3:hsl( var(--base-h), calc(var(--base-s) - 10%), calc(var(--base-l) - 25%) );--tx4:hsl( var(--base-h), calc(var(--base-s) - 10%), calc(var(--base-l) - 60%) );--ax1:hsl( var(--accent-h), var(--accent-s), var(--accent-l) );--ax2:hsl( var(--accent-h), var(--accent-s), calc(var(--accent-l) - 8%) );--ax3:hsl( var(--accent-h), var(--accent-s), calc(var(--accent-l) + 6%) );--hl1:hsla( var(--accent-h), 50%, calc(var(--base-l) - 20%), 30% );--hl2:rgba(255, 225, 0, 0.5);--sp1:white}.excalidraw.theme--dark,.theme-dark,.theme-dark.minimal-default-dark,.theme-light.minimal-light-contrast .titlebar,.theme-light.minimal-light-contrast.minimal-status-off .status-bar{--accent-l:60%;--base-l:15%;--bg1:hsl( var(--base-h), var(--base-s), var(--base-l) );--bg2:hsl( var(--base-h), var(--base-s), calc(var(--base-l) - 2%) );--bg3:hsla( var(--base-h), var(--base-s), calc(var(--base-l) + 40%), 0.12 );--ui1:hsl( var(--base-h), var(--base-s), calc(var(--base-l) + 6%) );--ui2:hsl( var(--base-h), var(--base-s), calc(var(--base-l) + 12%) );--ui3:hsl( var(--base-h), var(--base-s), calc(var(--base-l) + 20%) );--tx1:hsl( var(--base-h), calc(var(--base-s) - 10%), calc(var(--base-l) + 67%) );--tx2:hsl( var(--base-h), calc(var(--base-s) - 20%), calc(var(--base-l) + 45%) );--tx3:hsl( var(--base-h), calc(var(--base-s) - 10%), calc(var(--base-l) + 20%) );--tx4:hsl( var(--base-h), calc(var(--base-s) - 10%), calc(var(--base-l) + 50%) );--ax1:hsl( var(--accent-h), var(--accent-s), var(--accent-l) );--ax2:hsl( var(--accent-h), var(--accent-s), calc(var(--accent-l) + 8%) );--ax3:hsl( var(--accent-h), var(--accent-s), calc(var(--accent-l) - 5%) );--hl1:hsla( var(--accent-h), 50%, 40%, 30% );--hl2:rgba(255, 177, 80, 0.3);--sp1:white}.theme-light.minimal-light-white{--background-primary:white;--background-secondary:white;--background-secondary-alt:white;--ribbon-background:white;--bg1:white}.theme-dark.minimal-dark-black{--base-d:0%;--titlebar-background:black;--background-primary:black;--background-secondary:black;--background-secondary-alt:black;--ribbon-background:black;--background-modifier-hover:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 10%));--tx1:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 75%) );--tx2:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 50%) );--tx3:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 25%) );--ui1:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 12%) );--ui2:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 20%) );--ui3:hsl( var(--base-h), var(--base-s), calc(var(--base-d) + 30%) )}.theme-light{--mono100:black;--mono0:white}.theme-dark{--mono100:white;--mono0:black}.theme-dark,.theme-light,.theme-light.minimal-light-contrast .titlebar,.theme-light.minimal-light-contrast.is-mobile .workspace-drawer.mod-left,.theme-light.minimal-light-contrast.minimal-status-off .status-bar{--background-modifier-accent:var(--ax3);--background-modifier-border-focus:var(--ui3);--background-modifier-border-hover:var(--ui2);--background-modifier-border:var(--ui1);--background-modifier-form-field-highlighted:var(--bg1);--background-modifier-form-field:var(--bg1);--background-modifier-success:var(--color-green);--background-modifier-hover:var(--bg3);--background-modifier-active-hover:var(--bg3);--background-primary:var(--bg1);--background-primary-alt:var(--bg2);--background-secondary:var(--bg2);--background-secondary-alt:var(--bg1);--background-table-rows:var(--bg2);--checkbox-color:var(--ax3);--code-normal:var(--tx1);--divider-color:var(--ui1);--frame-divider-color:var(--ui1);--icon-color-active:var(--tx1);--icon-color-focused:var(--tx1);--icon-color-hover:var(--tx2);--icon-color:var(--tx2);--icon-hex:var(--mono0);--interactive-accent-hover:var(--ax1);--interactive-accent:var(--ax3);--interactive-hover:var(--ui1);--list-marker-color:var(--tx3);--modal-border-color:var(--ui2);--nav-item-background-active:var(--bg3);--nav-item-background-hover:var(--bg3);--nav-item-color:var(--tx2);--nav-item-color-active:var(--tx1);--nav-item-color-hover:var(--tx1);--nav-collapse-icon-color:var(--tx2);--nav-collapse-icon-color-collapsed:var(--tx2);--nav-indentation-guide-color:var(--ui1);--prompt-border-color:var(--ui3);--quote-opening-modifier:var(--ui2);--ribbon-background:var(--bg2);--scrollbar-active-thumb-bg:var(--ui3);--scrollbar-bg:transparent;--scrollbar-thumb-bg:var(--ui1);--search-result-background:var(--bg1);--tab-text-color-focused-active:var(--tx1);--tab-outline-color:var(--ui1);--text-accent-hover:var(--ax2);--text-accent:var(--ax1);--text-blockquote:var(--tx2);--text-bold:var(--tx1);--text-code:var(--tx4);--text-error:var(--color-red);--text-faint:var(--tx3);--text-highlight-bg:var(--hl2);--text-italic:var(--tx1);--text-muted:var(--tx2);--text-normal:var(--tx1);--text-on-accent:var(--sp1);--text-selection:var(--hl1);--title-color-inactive:var(--tx2);--title-color:var(--tx1);--titlebar-background:var(--bg2);--titlebar-background-focused:var(--bg2);--titlebar-text-color-focused:var(--tx1);--workspace-background-translucent:hsla(var(--base-h),var(--base-s), var(--base-l), 0.7)}.theme-light.minimal-light-contrast{--workspace-background-translucent:rgba(0,0,0,0.6)}.theme-light.minimal-light-contrast .theme-dark{--tab-container-background:var(--bg2);--ribbon-background-collapsed:var(--bg2)}.theme-light{--interactive-normal:var(--bg1);--interactive-accent-rgb:220,220,220;--active-line-bg:rgba(0,0,0,0.035);--background-modifier-cover:hsla(var(--base-h),calc(var(--base-s) - 70%),calc(var(--base-l) - 20%),0.5);--text-highlight-bg-active:rgba(0, 0, 0, 0.1);--background-modifier-error:rgba(255,0,0,0.14);--background-modifier-error-hover:rgba(255,0,0,0.08);--shadow-color:rgba(0, 0, 0, 0.1);--btn-shadow-color:rgba(0, 0, 0, 0.05)}.theme-dark{--interactive-normal:var(--bg3);--interactive-accent-rgb:66,66,66;--active-line-bg:rgba(255,255,255,0.04);--background-modifier-cover:hsla(var(--base-h),var(--base-s), calc(var(--base-l) - 12%), 0.5);--text-highlight-bg-active:rgba(255, 255, 255, 0.1);--background-modifier-error:rgba(255,20,20,0.12);--background-modifier-error-hover:rgba(255,20,20,0.18);--background-modifier-box-shadow:rgba(0, 0, 0, 0.3);--shadow-color:rgba(0, 0, 0, 0.3);--btn-shadow-color:rgba(0, 0, 0, 0.2)}.theme-light.minimal-light-white{--background-table-rows:var(--bg2)}.theme-light.minimal-light-tonal{--background-primary:var(--bg2);--background-primary-alt:var(--bg3);--background-table-rows:var(--bg3)}.theme-dark.minimal-dark-tonal{--ribbon-background:var(--bg1);--background-secondary:var(--bg1);--background-table-rows:var(--bg3)}.theme-dark.minimal-dark-black{--background-primary-alt:var(--bg3);--background-table-rows:var(--bg3);--modal-border:var(--ui2);--active-line-bg:rgba(255,255,255,0.085);--background-modifier-form-field:var(--bg3);--background-modifier-cover:hsla(var(--base-h),var(--base-s),calc(var(--base-d) + 8%),0.9);--background-modifier-box-shadow:rgba(0, 0, 0, 1)}body{--font-adaptive-normal:var(--font-text-size,var(--editor-font-size));--font-adaptive-small:var(--font-ui-medium);--font-adaptive-smaller:var(--font-ui-small);--font-adaptive-smallest:11px;--line-width-adaptive:var(--line-width);--line-width-wide:calc(var(--line-width) + 12.5%);--font-code:calc(var(--font-adaptive-normal) * 0.9);--table-text-size:calc(var(--font-adaptive-normal) * 0.875)}.minimal-dev-block-width .mod-root .workspace-leaf-content:after{display:flex;align-items:flex-end;content:"\00a0pane\00a0";font-size:12px;color:gray;font-family:var(--font-monospace);width:100%;max-width:100%;height:100vh;top:0;z-index:999;position:fixed;pointer-events:none}.minimal-dev-block-width.minimal-readable .mod-root .view-header:after{display:flex;align-items:flex-end;color:green;font-size:12px;font-family:var(--font-monospace);content:" ";width:var(--folding-offset);height:100vh;border-left:1px solid green;border-right:1px solid green;background-color:rgba(0,128,0,.1);top:0;left:max(calc(50% - var(--line-width-adaptive)/ 2 - 1px),calc(50% - var(--max-width)/ 2 - 1px));z-index:999;position:fixed;pointer-events:none}.minimal-dev-block-width.minimal-readable-off .mod-root .view-header:after{display:flex;align-items:flex-end;color:green;font-size:12px;font-family:var(--font-monospace);content:" ";width:var(--folding-offset);height:100vh;border-left:1px solid green;border-right:1px solid green;background-color:rgba(0,128,0,.1);top:0;left:calc(50% - var(--max-width)/ 2 - 1px);z-index:999;position:fixed;pointer-events:none}.minimal-dev-block-width .mod-root .view-content:before{display:flex;align-items:flex-end;content:"\00a0max\00a0";font-size:12px;color:red;width:var(--max-width);height:100vh;border-left:1px solid red;border-right:1px solid red;top:0;left:50%;transform:translate(-50%,0);z-index:999;position:fixed;pointer-events:none}.minimal-dev-block-width.minimal-readable .mod-root .view-header:before{display:flex;align-items:flex-end;content:"\00a0wide\00a0";font-size:12px;color:orange;font-family:var(--font-monospace);width:var(--line-width-wide);max-width:var(--max-width);height:100vh;border-left:1px solid orange;border-right:1px solid orange;background-color:rgba(255,165,0,.05);top:0;left:50%;transform:translate(-50%,0);z-index:999;position:fixed;pointer-events:none}.minimal-dev-block-width.minimal-readable .mod-root .view-content:after{display:flex;align-items:flex-end;color:#00f;font-size:12px;font-family:var(--font-monospace);content:"\00a0normal";width:var(--line-width-adaptive);max-width:var(--max-width);height:100vh;border-left:1px solid #00f;border-right:1px solid #00f;background-color:rgba(0,0,255,.08);top:0;left:50%;transform:translate(-50%,0);z-index:999;position:fixed;pointer-events:none}.CodeMirror-wrap>div>textarea{opacity:0}.markdown-source-view.mod-cm6 hr{border-width:2px}.mod-cm6 .cm-editor .cm-line{padding:0}.cm-editor .cm-content{padding-top:.5em}.markdown-source-view{color:var(--text-normal)}.markdown-reading-view>.markdown-preview-view{padding-top:18px}.markdown-source-view.mod-cm6 .cm-scroller{padding-top:18px;padding-left:0;padding-right:0}body:not(.is-mobile) .markdown-source-view.mod-cm6 .cm-gutters{position:absolute!important;z-index:0;margin-left:0}.cm-editor .cm-lineNumbers .cm-gutterElement{min-width:25px}@media (max-width:400pt){.cm-editor .cm-lineNumbers .cm-gutterElement{padding-right:4px;padding-left:8px}}.cm-editor .cm-lineNumbers .cm-gutterElement{font-variant-numeric:tabular-nums}.cm-editor .cm-gutterElement.cm-active .cm-heading-marker,.cm-editor .cm-lineNumbers .cm-gutterElement.cm-active{color:var(--text-muted)}.markdown-source-view.mod-cm6 .edit-block-button{cursor:var(--cursor);color:var(--text-faint);background-color:var(--background-primary);top:0;right:auto;left:0;opacity:0;transition:opacity .2s;padding:4px 4px 4px 9px}.markdown-source-view.mod-cm6 .edit-block-button svg{margin:0!important}.markdown-source-view.mod-cm6.is-live-preview.is-readable-line-width .cm-embed-block>.edit-block-button{width:30px!important;padding-left:7px!important;transform:none!important;margin-left:0!important}.is-live-preview:not(.is-readable-line-width) .cm-embed-block>.edit-block-button{padding-left:0!important;margin-left:0!important;transform:none!important;right:0;left:auto;padding:4px}.markdown-source-view.mod-cm6 .edit-block-button:hover{background-color:var(--background-primary);color:var(--text-muted)}.markdown-source-view.mod-cm6 .edit-block-button svg{opacity:1}.markdown-source-view.mod-cm6 .edit-block-button:hover svg{opacity:1}.markdown-source-view.mod-cm6 .cm-embed-block{padding:0;border:0;border-radius:0}.markdown-source-view.mod-cm6 .cm-embed-block:hover{border:0}.theme-light .cm-link,.theme-light .cm-operator,.theme-light .cm-string,.theme-light .cm-string-2,.theme-light .language-css .token.string,.theme-light .style .token.string,.theme-light .token.entity,.theme-light .token.operator,.theme-light .token.url{background-color:transparent}.markdown-source-view,.markdown-source-view.mod-cm5,.markdown-source-view.mod-cm6{padding:0}.cm-s-obsidian .CodeMirror-code{padding-right:0}.CodeMirror-lines{padding-bottom:170px}.CodeMirror pre.CodeMirror-line,.CodeMirror pre.CodeMirror-line-like{padding-left:0;padding-right:0}.cm-s-obsidian pre.HyperMD-list-line{padding-top:0}.workspace .markdown-preview-view .markdown-embed{margin:0}.workspace .markdown-preview-view .markdown-embed-content{max-height:none}.internal-embed .markdown-preview-section,.markdown-embed-title{max-width:100%}.CodeMirror-linenumber{font-size:var(--font-adaptive-small)!important;font-feature-settings:'tnum';color:var(--text-faint);padding-top:3px}.cm-s-obsidian .cm-active span.cm-link.cm-hmd-barelink.cm-formatting-link-start,.cm-s-obsidian .cm-formatting-link+span.cm-link.cm-formatting.cm-formatting-link-end,.cm-s-obsidian span.cm-footref.cm-formatting.cm-formatting-link.cm-formatting-link-end,.cm-s-obsidian span.cm-formatting-link,.cm-s-obsidian span.cm-link.cm-hmd-barelink.cm-formatting-link-start,span.cm-image-marker{color:var(--text-faint)}.cm-formatting-quote{color:var(--text-faint)!important}figure{margin-inline-start:0;margin-inline-end:0}.markdown-preview-view blockquote,.markdown-preview-view ol,.markdown-preview-view p,.markdown-preview-view ul{margin-block-start:var(--spacing-p);margin-block-end:var(--spacing-p)}.markdown-preview-view ol ol,.markdown-preview-view ol ul,.markdown-preview-view ul ol,.markdown-preview-view ul ul{margin-block-start:0em;margin-block-end:0em}.markdown-preview-view h1,.markdown-preview-view h2,.markdown-preview-view h3,.markdown-preview-view h4,.markdown-preview-view h5,.markdown-preview-view h6{margin-block-start:1em;margin-block-end:var(--spacing-p)}.markdown-preview-view .mod-highlighted{transition:background-color .3s ease;background-color:var(--text-selection);color:inherit}.workspace-leaf-content>.view-content{--file-margins:0}.inline-title{padding-top:16px}.minimal-status-off .status-bar{--status-bar-position:static;--status-bar-radius:0;--status-bar-border-width:1px 0 0 0;--status-bar-background:var(--background-secondary);--status-bar-border-color:var(--ui1)}body:not(.minimal-status-off) .status-bar{background-color:var(--background-primary);--status-bar-border-width:0}.status-bar{transition:color .2s linear;color:var(--text-faint);font-size:var(--font-adaptive-smallest)}.status-bar .sync-status-icon.mod-success,.status-bar .sync-status-icon.mod-working{color:var(--text-faint)}.status-bar:hover,.status-bar:hover .sync-status-icon.mod-success,.status-bar:hover .sync-status-icon.mod-working{color:var(--text-muted);transition:color .2s linear}.status-bar .plugin-sync:hover .sync-status-icon.mod-success,.status-bar .plugin-sync:hover .sync-status-icon.mod-working{color:var(--text-normal)}.status-bar .status-bar-item{cursor:var(--cursor)!important}.status-bar .status-bar-item.cMenu-statusbar-button:hover,.status-bar .status-bar-item.mod-clickable:hover,.status-bar .status-bar-item.plugin-editor-status:hover,.status-bar .status-bar-item.plugin-sync:hover{text-align:center;background-color:var(--background-modifier-hover)!important}.tab-stack-top-flipped{--tab-stacked-text-transform:rotate(180deg);--tab-stacked-text-align:right}.tab-stack-center{--tab-stacked-text-align:center}.tab-stack-center-flipped{--tab-stacked-text-transform:rotate(180deg);--tab-stacked-text-align:center}.tab-stack-bottom{--tab-stacked-text-transform:rotate(180deg)}.tab-stack-bottom-flipped{--tab-stacked-text-align:right}.view-header-title,.view-header-title-parent{text-overflow:ellipsis}.view-header-title-container:not(.mod-at-end):after{display:none}body:not(.is-mobile) .view-actions .view-action:last-child{margin-left:-1px}.minimal-focus-mode .workspace-ribbon:not(.is-collapsed)~.mod-root .view-header:hover .view-actions,.mod-right.is-collapsed~.mod-root .view-header:hover .view-actions,.view-action.is-active:hover,.workspace-ribbon.mod-left.is-collapsed~.mod-root .view-header:hover .view-actions,body:not(.minimal-focus-mode) .workspace-ribbon:not(.is-collapsed)~.mod-root .view-actions{opacity:1;transition:opacity .25s ease-in-out}.view-header-title-container{opacity:0;transition:opacity .1s ease-in-out}.view-header-title-container:focus-within{opacity:1;transition:opacity .1s ease-in-out}.view-header:hover .view-header-title-container,.workspace-tab-header-container:hover+.workspace-tab-container .view-header-title-container{opacity:1;transition:opacity .1s ease-in-out}.is-phone .view-header-title-container,.minimal-tab-title-visible .view-header-title-container{opacity:1}.minimal-tab-title-hidden .view-header-title-container{opacity:0}.minimal-tab-title-hidden .view-header-title-container:focus-within{opacity:1;transition:opacity .1s ease-in-out}.minimal-tab-title-hidden .view-header:hover .view-header-title-container,.minimal-tab-title-hidden .workspace-tab-header-container:hover+.workspace-tab-container .view-header-title-container{opacity:0}body.window-title-off .titlebar-text{display:none}.titlebar-button-container.mod-right{background-color:transparent!important}.is-hidden-frameless.theme-dark:not(.minimal-dark-black):not(.colorful-frame),.is-hidden-frameless.theme-light:not(.minimal-light-tonal):not(.colorful-frame){--titlebar-background:var(--bg1)}.is-hidden-frameless.theme-dark:not(.minimal-dark-black):not(.colorful-frame).is-focused .sidebar-toggle-button.mod-right,.is-hidden-frameless.theme-dark:not(.minimal-dark-black):not(.colorful-frame).is-focused .workspace-ribbon.mod-left.is-collapsed,.is-hidden-frameless.theme-dark:not(.minimal-dark-black):not(.colorful-frame).is-focused .workspace-tabs.mod-top,.is-hidden-frameless.theme-light:not(.minimal-light-tonal):not(.colorful-frame).is-focused .sidebar-toggle-button.mod-right,.is-hidden-frameless.theme-light:not(.minimal-light-tonal):not(.colorful-frame).is-focused .workspace-ribbon.mod-left.is-collapsed,.is-hidden-frameless.theme-light:not(.minimal-light-tonal):not(.colorful-frame).is-focused .workspace-tabs.mod-top{--titlebar-background-focused:var(--bg1)}.is-hidden-frameless.theme-dark:not(.minimal-dark-black):not(.colorful-frame):not(.minimal-light-white) .workspace-ribbon.mod-left:not(.is-collapsed),.is-hidden-frameless.theme-light:not(.minimal-light-tonal):not(.colorful-frame):not(.minimal-light-white) .workspace-ribbon.mod-left:not(.is-collapsed){--titlebar-background:var(--bg2)}.mod-macos.is-hidden-frameless:not(.is-popout-window) .sidebar-toggle-button.mod-right{right:0;padding-right:var(--size-4-2)}body.is-focused{--titlebar-background-focused:var(--background-secondary)}.is-hidden-frameless:not(.colorful-frame) .mod-left-split .mod-top .workspace-tab-header-container{--tab-container-background:var(--background-secondary)}.mod-root .workspace-tab-header-status-icon{color:var(--text-muted)}.modal button:not(.mod-warning),.modal.mod-settings button:not(.mod-cta):not(.mod-warning),.modal.mod-settings button:not(.mod-warning){white-space:nowrap;transition:background-color .2s ease-out,border-color .2s ease-out}button.mod-warning{border:1px solid var(--background-modifier-error);color:var(--text-error);box-shadow:0 1px 1px 0 var(--btn-shadow-color);transition:background-color .2s ease-out}button.mod-warning:hover{border:1px solid var(--background-modifier-error);color:var(--text-error);box-shadow:0 2px 3px 0 var(--btn-shadow-color);transition:background-color .2s ease-out}.document-replace,.document-search{max-width:100%}.document-search-container{margin:0 auto;max-width:var(--max-width);width:var(--line-width-adaptive)}.is-mobile .CodeMirror-foldgutter-open:after,.is-mobile span[title="Fold line"]:after{transform:translateX(-2px)!important}body.is-mobile .CodeMirror-foldgutter-folded:after,body.is-mobile span[title="Unfold line"]:after{content:"›";font-family:sans-serif;transform:translateY(-2px);transform:rotate(-90deg) translateY(2px) translateX(-.45em)}body.is-mobile .CodeMirror-foldgutter-open:after,body.is-mobile span[title="Fold line"]:after{content:"›";font-family:sans-serif;transform:rotate(360deg)}body{--ig-adjust-reading:-0.95em;--ig-adjust-edit:2px}.markdown-rendered.show-indentation-guide li.task-list-item>ol::before,.markdown-rendered.show-indentation-guide li.task-list-item>ul::before,.markdown-rendered.show-indentation-guide li>ol::before,.markdown-rendered.show-indentation-guide li>ul::before{left:var(--ig-adjust-reading)}.markdown-source-view.mod-cm6 .cm-indent::before{transform:translateX(var(--ig-adjust-edit))}.is-mobile .markdown-rendered.show-indentation-guide li>ol::before,.is-mobile .markdown-rendered.show-indentation-guide li>ul::before{left:calc(0em + var(--ig-adjust-reading))}.is-mobile .markdown-source-view.mod-cm6 .cm-indent::before{transform:translateX(calc(2px + var(--ig-adjust-edit)))}.modal-button-container .mod-checkbox{--checkbox-radius:4px}.modal-container.mod-confirmation .modal{width:480px;min-width:0}.modal-container.mod-confirmation .modal-content{margin-top:10px}.modal-container.mod-confirmation .modal-content .setting-item{margin-top:10px}.modal-container.mod-confirmation .modal-button-container{display:flex}.modal-container.mod-confirmation .modal-button-container>.mod-warning:nth-last-child(3){background:0 0;border:none;font-weight:500;color:var(--text-error);cursor:pointer;margin-right:auto;box-shadow:none;padding-left:0;padding-right:0}.modal-container.mod-confirmation .modal-button-container>.mod-warning:nth-last-child(3):hover{text-decoration:underline}.modal-container.mod-confirmation .modal-button-container>.mod-warning:nth-last-child(2){margin-left:auto}.theme-light{--progress-outline:rgba(0,0,0,0.05)}.theme-dark{--progress-outline:rgba(255,255,255,0.04)}.markdown-preview-view progress,.markdown-rendered progress,.markdown-source-view.is-live-preview progress{width:220px}.markdown-preview-view progress[value]::-webkit-progress-bar,.markdown-rendered progress[value]::-webkit-progress-bar,.markdown-source-view.is-live-preview progress[value]::-webkit-progress-bar{box-shadow:inset 0 0 0 var(--border-width) var(--progress-outline)}.markdown-preview-view progress[value^='1']::-webkit-progress-value,.markdown-preview-view progress[value^='2']::-webkit-progress-value,.markdown-preview-view progress[value^='3']::-webkit-progress-value,.markdown-rendered progress[value^='1']::-webkit-progress-value,.markdown-rendered progress[value^='2']::-webkit-progress-value,.markdown-rendered progress[value^='3']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='1']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='2']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='3']::-webkit-progress-value{background-color:var(--color-red)}.markdown-preview-view progress[value^='4']::-webkit-progress-value,.markdown-preview-view progress[value^='5']::-webkit-progress-value,.markdown-rendered progress[value^='4']::-webkit-progress-value,.markdown-rendered progress[value^='5']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='4']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='5']::-webkit-progress-value{background-color:var(--color-orange)}.markdown-preview-view progress[value^='6']::-webkit-progress-value,.markdown-preview-view progress[value^='7']::-webkit-progress-value,.markdown-rendered progress[value^='6']::-webkit-progress-value,.markdown-rendered progress[value^='7']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='6']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='7']::-webkit-progress-value{background-color:var(--color-yellow)}.markdown-preview-view progress[value^='8']::-webkit-progress-value,.markdown-preview-view progress[value^='9']::-webkit-progress-value,.markdown-rendered progress[value^='8']::-webkit-progress-value,.markdown-rendered progress[value^='9']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='8']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value^='9']::-webkit-progress-value{background-color:var(--color-green)}.markdown-preview-view progress[value='1']::-webkit-progress-value,.markdown-preview-view progress[value='100']::-webkit-progress-value,.markdown-rendered progress[value='1']::-webkit-progress-value,.markdown-rendered progress[value='100']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='1']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='100']::-webkit-progress-value{background-color:var(--text-accent)}.markdown-preview-view progress[value='0']::-webkit-progress-value,.markdown-preview-view progress[value='2']::-webkit-progress-value,.markdown-preview-view progress[value='3']::-webkit-progress-value,.markdown-preview-view progress[value='4']::-webkit-progress-value,.markdown-preview-view progress[value='5']::-webkit-progress-value,.markdown-preview-view progress[value='6']::-webkit-progress-value,.markdown-preview-view progress[value='7']::-webkit-progress-value,.markdown-preview-view progress[value='8']::-webkit-progress-value,.markdown-preview-view progress[value='9']::-webkit-progress-value,.markdown-rendered progress[value='0']::-webkit-progress-value,.markdown-rendered progress[value='2']::-webkit-progress-value,.markdown-rendered progress[value='3']::-webkit-progress-value,.markdown-rendered progress[value='4']::-webkit-progress-value,.markdown-rendered progress[value='5']::-webkit-progress-value,.markdown-rendered progress[value='6']::-webkit-progress-value,.markdown-rendered progress[value='7']::-webkit-progress-value,.markdown-rendered progress[value='8']::-webkit-progress-value,.markdown-rendered progress[value='9']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='0']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='2']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='3']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='4']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='5']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='6']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='7']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='8']::-webkit-progress-value,.markdown-source-view.is-live-preview progress[value='9']::-webkit-progress-value{background-color:var(--color-red)}body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar,body:not(.native-scrollbars) ::-webkit-scrollbar{width:11px;background-color:transparent}body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar:horizontal,body:not(.native-scrollbars) ::-webkit-scrollbar:horizontal{height:11px}body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar-corner,body:not(.native-scrollbars) ::-webkit-scrollbar-corner{background-color:transparent}body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar-track,body:not(.native-scrollbars) ::-webkit-scrollbar-track{background-color:transparent}body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar-thumb,body:not(.native-scrollbars) ::-webkit-scrollbar-thumb{background-clip:padding-box;border-radius:20px;border:3px solid transparent;background-color:var(--background-modifier-border);border-width:3px 3px 3px 3px;min-height:45px}body:not(.hider-scrollbars).styled-scrollbars .mod-left-split .workspace-tabs ::-webkit-scrollbar-thumb:hover,body:not(.hider-scrollbars).styled-scrollbars .modal .vertical-tab-header::-webkit-scrollbar-thumb:hover,body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar-thumb:hover,body:not(.native-scrollbars) .mod-left-split .workspace-tabs ::-webkit-scrollbar-thumb:hover,body:not(.native-scrollbars) .modal .vertical-tab-header::-webkit-scrollbar-thumb:hover,body:not(.native-scrollbars) ::-webkit-scrollbar-thumb:hover{background-color:var(--background-modifier-border-hover)}body:not(.hider-scrollbars).styled-scrollbars .mod-left-split .workspace-tabs ::-webkit-scrollbar-thumb:active,body:not(.hider-scrollbars).styled-scrollbars .modal .vertical-tab-header::-webkit-scrollbar-thumb:active,body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar-thumb:active,body:not(.native-scrollbars) .mod-left-split .workspace-tabs ::-webkit-scrollbar-thumb:active,body:not(.native-scrollbars) .modal .vertical-tab-header::-webkit-scrollbar-thumb:active,body:not(.native-scrollbars) ::-webkit-scrollbar-thumb:active{background-color:var(--background-modifier-border-focus)}.tooltip{transition:none;animation:none}.tooltip.mod-left,.tooltip.mod-right{transform:none;animation:none}.tooltip.mod-error{color:var(--text-error)}.markdown-preview-view blockquote{padding:0 0 0 var(--nested-padding);font-size:var(--blockquote-size)}.markdown-source-view.mod-cm6 .HyperMD-quote,.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote{font-size:var(--blockquote-size)}.is-live-preview .cm-hmd-indent-in-quote{color:var(--text-faint)}.is-live-preview.is-readable-line-width>.cm-callout .callout{max-width:var(--max-width);margin:0 auto}.callouts-outlined .callout .callout-title{background-color:var(--background-primary);margin-top:-24px;z-index:200;width:fit-content;padding:0 .5em;margin-left:-.75em;letter-spacing:.05em;font-variant-caps:all-small-caps}.callouts-outlined .callout{overflow:visible;--callout-border-width:1px;--callout-border-opacity:0.5;--callout-title-size:0.8em;--callout-blend-mode:normal;background-color:transparent}.callouts-outlined .cm-embed-block.cm-callout{padding-top:12px}.callouts-outlined .callout-content .callout{margin-top:18px}body{--checkbox-radius:50%;--checkbox-top:2px;--checkbox-left:0px;--checkbox-margin:0px 6px 0px -2em}.checkbox-square{--checkbox-size:calc(var(--font-text-size) * 0.85);--checkbox-radius:4px;--checkbox-top:1px;--checkbox-left:0px;--checkbox-margin:0px 8px 0px -2em}body.minimal-strike-lists{--checklist-done-decoration:line-through}body:not(.minimal-strike-lists){--checklist-done-decoration:none;--checklist-done-color:var(--text-normal)}input[type=checkbox]{padding:0;margin:0 6px 0 0}.markdown-preview-section>.contains-task-list{padding-bottom:.5em}.mod-cm6 .HyperMD-task-line[data-task] .cm-formatting-list-ol~.task-list-label .task-list-item-checkbox{margin:1px}.markdown-preview-view .task-list-item-checkbox{position:relative;top:var(--checkbox-top);left:var(--checkbox-left);line-height:0}.markdown-preview-view ul>li.task-list-item{text-indent:0;line-height:var(--line-height)}.is-mobile .mod-cm6 .HyperMD-task-line[data-task] .task-list-item-checkbox{margin-left:-.4em}.is-mobile .markdown-preview-view input[type=checkbox].task-list-item-checkbox{top:.2em}.minimal-code-scroll{--code-white-space:pre}.minimal-code-scroll .HyperMD-codeblock.HyperMD-codeblock-bg{overflow-y:scroll;white-space:pre}.minimal-code-scroll .cm-hmd-codeblock{white-space:pre!important}@media print{.print{--code-background:#eee!important}}body{--embed-max-height:none}.embed-strict{--embed-background:transparent;--embed-border-left:0;--embed-padding:0}.embed-strict .markdown-embed-content{--folding-offset:0px}.embed-strict .el-embed-heading.el-p>p{margin-block-start:0;margin-block-end:0}.embed-strict .internal-embed .markdown-embed,.embed-strict .markdown-preview-view .markdown-embed,.embed-strict.markdown-preview-view .markdown-embed{padding:0}.embed-strict .internal-embed .markdown-embed .markdown-embed-title,.embed-strict .markdown-embed-title{display:none}.embed-strict .internal-embed:not([src*="#^"]) .markdown-embed-link{width:24px;opacity:0}.contextual-typography .embed-strict .internal-embed .markdown-preview-view .markdown-preview-sizer>div,.embed-strict.contextual-typography .internal-embed .markdown-preview-view .markdown-preview-sizer>div{margin:0;width:100%}.markdown-embed .markdown-preview-view .markdown-preview-sizer{padding-bottom:0!important}.markdown-preview-view.is-readable-line-width .markdown-embed .markdown-preview-sizer,.markdown-preview-view.markdown-embed .markdown-preview-sizer{max-width:100%;width:100%;min-height:0!important;padding-bottom:0!important}.markdown-embed .markdown-preview-section div:last-child p,.markdown-embed .markdown-preview-section div:last-child ul{margin-block-end:2px}.markdown-preview-view .markdown-embed{margin-top:var(--nested-padding);padding:0 calc(var(--nested-padding)/ 2) 0 var(--nested-padding)}.markdown-embed-title{line-height:18px;height:24px}.internal-embed:not([src*="#^"]) .markdown-embed-link{right:0;width:100%}.file-embed-link,.markdown-embed-link{top:0;right:0;text-align:right;justify-content:flex-end}.file-embed-link svg,.markdown-embed-link svg{width:16px;height:16px}.markdown-embed .file-embed-link,.markdown-embed .markdown-embed-link{opacity:.6;transition:opacity .1s linear}.markdown-embed .file-embed-link:hover,.markdown-embed .markdown-embed-link:hover{opacity:1}.markdown-embed .file-embed-link:hover:hover,.markdown-embed .markdown-embed-link:hover:hover{background-color:transparent;--icon-color:var(--text-accent)}.file-embed-link:hover,.markdown-embed-link:hover{color:var(--text-muted)}.markdown-embed .markdown-preview-view{padding:0}.internal-embed .markdown-embed{border:0;border-left:1px solid var(--quote-opening-modifier);border-radius:0}a[href*="obsidian://search"]{background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='17' height='17' class='search'><path fill='black' stroke='black' stroke-width='2' d='M42,6C23.2,6,8,21.2,8,40s15.2,34,34,34c7.4,0,14.3-2.4,19.9-6.4l26.3,26.3l5.6-5.6l-26-26.1c5.1-6,8.2-13.7,8.2-22.1 C76,21.2,60.8,6,42,6z M42,10c16.6,0,30,13.4,30,30S58.6,70,42,70S12,56.6,12,40S25.4,10,42,10z'></path></svg>")}.theme-dark a[href*="obsidian://search"]{background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='17' height='17' class='search'><path fill='white' stroke='white' stroke-width='2' d='M42,6C23.2,6,8,21.2,8,40s15.2,34,34,34c7.4,0,14.3-2.4,19.9-6.4l26.3,26.3l5.6-5.6l-26-26.1c5.1-6,8.2-13.7,8.2-22.1 C76,21.2,60.8,6,42,6z M42,10c16.6,0,30,13.4,30,30S58.6,70,42,70S12,56.6,12,40S25.4,10,42,10z'></path></svg>")}div>ol,div>ul{padding-inline-start:1.4em}ul>li{min-height:1.4em}ol>li{margin-left:0}ol{margin-left:0;list-style:default}.markdown-source-view.mod-cm6 .cm-content .HyperMD-list-line{margin-left:var(--list-edit-offset)!important}.markdown-preview-view ol>li,.markdown-preview-view ul>li,.markdown-source-view ol>li,.markdown-source-view ul>li,.mod-cm6 .HyperMD-list-line.cm-line{padding-top:var(--list-spacing);padding-bottom:var(--list-spacing)}.is-mobile ul>li:not(.task-list-item)::marker{font-size:.8em}.is-mobile .markdown-rendered ol,.is-mobile .markdown-rendered ul{padding-inline-start:var(--list-indent)}.is-mobile .markdown-rendered div>ol,.is-mobile .markdown-rendered div>ul{padding-inline-start:2em}.is-mobile .el-ol>ol,.is-mobile .el-ul>ul{margin-left:0}.is-mobile .workspace-leaf-content:not([data-type=search]) .workspace-leaf-content[data-type=markdown] .nav-buttons-container{border-bottom:none;padding-top:5px}.is-mobile .mod-root .workspace-leaf-content[data-type=markdown] .search-input-container{width:calc(100% - 160px)}.embedded-backlinks .nav-header~.search-input-container{width:calc(100% - 140px);margin-top:12px}.embedded-backlinks .nav-buttons-container{position:absolute;right:0;top:14px}.embedded-backlinks .backlink-pane>.tree-item-self,.embedded-backlinks .backlink-pane>.tree-item-self:hover{text-transform:none;color:var(--text-normal);font-size:var(--font-adaptive-normal);font-weight:500;letter-spacing:unset}.markdown-source-view.mod-cm6 table{border-collapse:collapse}.markdown-preview-view table{margin-block-start:1em}.markdown-preview-view table,.markdown-source-view.mod-cm6 table{border:1px solid var(--border-color);border-collapse:collapse}.markdown-preview-view td,.markdown-preview-view th,.markdown-source-view.mod-cm6 td,.markdown-source-view.mod-cm6 th{padding:4px 10px}.markdown-preview-view td:first-child,.markdown-preview-view th:first-child,.markdown-source-view.mod-cm6 td:first-child,.markdown-source-view.mod-cm6 th:first-child{padding-left:0}.markdown-preview-view th,.markdown-source-view.mod-cm6 .dataview.table-view-table thead.table-view-thead tr th,.table-view-table>thead>tr>th{padding:4px 10px}.markdown-preview-view th:first-child,.markdown-source-view.mod-cm6 .dataview.table-view-table thead.table-view-thead tr th:first-child,.table-view-table>thead>tr>th:first-child{padding-left:0}body{--table-header-border-width:0 1px;--table-column-first-border-width:0;--table-column-last-border-width:0;--table-row-last-border-width:0}.is-live-preview .el-table{width:100%;max-width:100%}.cm-hmd-table-sep-dummy,.cm-s-obsidian .HyperMD-table-row span.cm-hmd-table-sep{color:var(--text-faint);font-weight:400}body.minimal-unstyled-tags{--tag-background:transparent;--tag-background-hover:transparent;--tag-border-width:0px;--tag-padding-x:0;--tag-padding-y:0;--tag-size:inherit;--tag-color-hover:var(--text-accent-hover)}body.minimal-unstyled-tags.is-mobile.theme-dark{--tag-background:transparent}body:not(.minimal-unstyled-tags){--tag-size:0.8em;--tag-padding-y:0.2em;--tag-background:transparent;--tag-background-hover:transparent;--tag-color:var(--text-muted);--tag-border-width:1px;--tag-border-color:var(--background-modifier-border);--tag-border-color-hover:var(--background-modifier-border-hover);--tag-color-hover:var(--text-normal)}body.is-mobile.theme-dark{--tag-background:transparent}h1,h2,h3,h4{letter-spacing:-.02em}body,button,input{font-family:var(--font-interface)}.cm-s-obsidian span.cm-error{color:var(--color-red)}.markdown-preview-view,.popover,.workspace-leaf-content[data-type=markdown]{font-family:var(--font-text)}.cm-s-obsidian,.markdown-preview-view{font-family:var(--font-editor)}a{text-decoration:none}.markdown-preview-view a.internal-link,.markdown-preview-view a.external-link{text-decoration:none}.markdown-preview-view a.internal-link:hover,.markdown-preview-view a.external-link:hover{text-decoration:none}.cm-s-obsidian .cm-link,.cm-s-obsidian .cm-hmd-barelink{text-decoration:none}.cm-s-obsidian .cm-link:hover,.cm-s-obsidian .cm-hmd-barelink:hover{text-decoration:none}/* @settings
+
+name: Minimal Theme Settings
+id: MTS
+settings:
+	-
+		id: minimal-version
+		title: Minimal Theme version
+		description: 7.4.3
+		type: heading
+		level: 1
+		collapsed: true
+	-
+		id: minimal-status
+		title: Status bar
+		type: heading
+		level: 1
+		collapsed: true
+	-
+		id: minimal-status-off
+		title: Disable status bar
+		type: class-toggle
+	-
+		id: tabs
+		title: Tabs
+		type: heading
+		level: 1
+		collapsed: true
+	-
+		id: minimal-tab-text-color
+		title: Tab title text color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: minimal-tab-text-color-active
+		title: Tab title text color (active)
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: file-header-visibility
+		title: Tab title visibility
+		type: class-select
+		default: minimal-tab-title-hover
+		options:
+			-
+				label: Hover only
+				value: minimal-tab-title-hover
+			-
+				label: Hidden
+				value: minimal-tab-title-hidden
+			-
+				label: Visible
+				value: minimal-tab-title-visible
+	-
+		id: file-header-font-size
+		title: Tab title font size
+		type: variable-text
+		default: 0.9em
+	-
+		id: file-header-font-weight
+		title: Tab title font weight
+		type: variable-number-slider
+		default: 400
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: file-header-justify
+		title: Tab title alignment
+		type: variable-select
+		default: center
+		options:
+			-
+				label: Center
+				value: center
+			-
+				label: Left
+				value: left
+	-
+		id: window-frame
+		title: Window frame
+		type: heading
+		level: 1
+		collapsed: true
+	-
+		id: window-title-off
+		title: Hide window frame title
+		type: class-toggle
+	-
+		id: frame-background
+		title: Frame background
+		type: variable-themed-color
+		opacity: true
+		format: hsl-split
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: frame-icon-color
+		title: Frame icon color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: titlebar-text-color-focused
+		title: Frame title color (focused)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: titlebar-text-color
+		title: Frame title color (inactive)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: titlebar-text-weight
+		title: Frame title font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: fonts
+		title: Fonts
+		type: heading
+		level: 1
+		collapsed: true
+	-
+		id: font-monospace
+		title: Monospace font
+		type: variable-text
+		default: Menlo
+	-
+		id: font-text
+		title: Text font
+		type: variable-text
+		default: -apple-system
+	-
+		id: font-interface
+		title: Interface font
+		type: variable-text
+		default: -apple-system
+	-
+		id: font-ui-smaller
+		title: Small font size
+		type: variable-number
+		default: 12
+		format: px
+	-
+		id: font-ui-smallest
+		title: Smaller font size
+		type: variable-number
+		default: 10
+		format: px
+	-
+		id: font-smallest
+		title: Smallest font size
+		type: variable-number
+		default: 9
+		format: px
+	-
+		id: themes
+		title: Themes
+		type: heading
+		level: 1
+		collapsed: true
+	-
+		id: minimal-theme-light
+		title: Light theme style
+		type: class-select
+		allowEmpty: false
+		default: minimal-light-tonal
+		options:
+			-
+				label: Tonal (default)
+				value: minimal-light-tonal
+			-
+				label: White
+				value: minimal-light-white
+			-
+				label: High contrast
+				value: minimal-light-contrast
+	-
+		id: minimal-theme-dark
+		title: Dark theme style
+		type: class-select
+		allowEmpty: false
+		default: minimal-dark-tonal
+		options:
+			-
+				label: Tonal (default)
+				value: minimal-dark-tonal
+			-
+				label: Black
+				value: minimal-dark-black
+	-
+		id: bg1
+		title: Primary background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bg2
+		title: Secondary background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bg3
+		title: Tertiary background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui1
+		title: Primary UI color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui2
+		title: Secondary UI color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui3
+		title: Tertiary UI color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: accent-color
+		title: Accent color
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: ax1
+		title: Accent color
+		type: variable-themed-color
+		description: Used primarily for links
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ax2
+		title: Accent color (hover)
+		type: variable-themed-color
+		description: Used primarily for hovered links
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ax3
+		title: Accent color interactive
+		type: variable-themed-color
+		description: Used for buttons, checklists, toggles
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: sp1
+		title: Text on accent
+		type: variable-themed-color
+		description: Used primarily for text on accented buttons
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: extended-palette
+		title: Extended colors
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: color-red
+		title: Red
+		description: Extended palette colors are defaults used for progress bar status, syntax highlighting, colorful headings, and graph nodes
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-orange
+		title: Orange
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-yellow
+		title: Yellow
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-green
+		title: Green
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-cyan
+		title: Cyan
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-blue
+		title: Blue
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-purple
+		title: Purple
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-pink
+		title: Pink
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: active-line
+		title: Active line
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: active-line-on
+		title: Highlight active line
+		description: Adds a background to current line in editor
+		type: class-toggle
+		default: false
+	-
+		id: active-line-bg
+		title: Active line background
+		description: Using a low opacity color is recommended to avoid conflicting with highlights
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquotes
+		title: Blockquotes
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: blockquote-color
+		title: Blockquote text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquote-background-color
+		title: Blockquote background color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquote-border-color
+		title: Blockquote border color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquote-border-thickness
+		title: Blockquote border thickness
+		type: variable-number-slider
+		format: px
+		default: 1
+		min: 0
+		max: 5
+		step: 1
+	-
+		id: blockquote-size
+		title: Blockquote font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: ''
+	-
+		id: blockquote-font-style
+		title: Blockquote font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: callouts
+		title: Callouts
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: callouts-style
+		title: Callout style
+		type: class-select
+		allowEmpty: false
+		default: callouts-default
+		options:
+			-
+				label: Filled
+				value: callouts-default
+			-
+				label: Outlined
+				value: callouts-outlined
+	-
+		id: callout-blend-mode
+		title: Color blending
+		description: Blend the color of nested callouts
+		type: variable-select
+		allowEmpty: false
+		default: var(--highlight-mix-blend-mode)
+		options:
+			-
+				label: On
+				value: var(--highlight-mix-blend-mode)
+			-
+				label: Off
+				value: normal
+	-
+		id: canvas
+		title: Canvas
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: canvas-card-label-display
+		title: Card labels
+		type: variable-select
+		allowEmpty: true
+		default: block
+		options:
+			-
+				label: Visible
+				value: block
+			-
+				label: Hidden
+				value: none
+	-
+		id: canvas-dot-pattern
+		title: Canvas dot pattern
+		description: Color for background dot pattern
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-blocks
+		title: Code blocks
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: code-size
+		title: Code font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 13px
+	-
+		id: minimal-code-scroll
+		title: Scroll long lines
+		description: Turns off line wrap for code
+		type: class-toggle
+		default: false
+	-
+		id: code-background
+		title: Code background color
+		description: Background for code blocks
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-normal
+		title: Code text color
+		description: Color of code when syntax highlighting is not present
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: syntax-highlighting
+		title: Syntax highlighting
+		type: heading
+		level: 3
+		collapsed: false
+	-
+		id: code-comment
+		title: "Syntax: comments"
+		description: Syntax highlighting for comments
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-function
+		title: "Syntax: functions"
+		description: Syntax highlighting for functions
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-keyword
+		title: "Syntax: keywords"
+		description: Syntax highlighting for keywords
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-important
+		title: "Syntax: important"
+		description: Syntax highlighting for important text
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-operator
+		title: "Syntax: operators"
+		description: Syntax highlighting for operators
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-property
+		title: "Syntax: properties"
+		description: Syntax highlighting for properties
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-punctuation
+		title: "Syntax: punctuation"
+		description: Syntax highlighting for punctuation
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-string
+		title: "Syntax: strings"
+		description: Syntax highlighting for strings
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-tag
+		title: "Syntax: tags"
+		description: Syntax highlighting for tags
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-value
+		title: "Syntax: values"
+		description: Syntax highlighting for values
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: dataview
+		title: Dataview
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: trim-cols
+		title: Trim Dataview columns
+		description: Disables word wrapping in table cells, and trims long text
+		type: class-toggle
+		default: true
+	-
+		id: max-col-width
+		title: Dataview maximum column width
+		description: Maximum width for Dataview columns, accepts any CSS width value
+		type: variable-text
+		default: 18em
+	-
+		id: embed-blocks
+		title: Embeds and transclusions
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: embed-strict
+		title: Use strict embed style globally
+		description: Transclusions appear seamlessly in the flow of text. Can be enabled per file using the embed-strict helper class
+		type: class-toggle
+		default: false
+	-
+		id: graphs
+		title: Graphs
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: graph-line
+		title: Line color
+		description: Changing graph colors requires closing and reopening graph panes or restarting Obsidian
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: graph-node
+		title: Node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: graph-node-focused
+		title: Active node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: graph-node-tag
+		title: Tag node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: graph-node-attachment
+		title: Attachment node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: graph-node-unresolved
+		title: Unresolved node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: headings
+		title: Headings
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: level-1-headings
+		title: Level 1 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h1-font
+		title: H1 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h1-size
+		title: H1 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1.125em
+	-
+		id: h1-weight
+		title: H1 font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h1-color
+		title: H1 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h1-variant
+		title: H1 font variant
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps 
+	-
+		id: h1-style
+		title: H1 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h1-l
+		title: H1 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-2-headings
+		title: Level 2 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h2-font
+		title: H2 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h2-size
+		title: H2 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1em
+	-
+		id: h2-weight
+		title: H2 font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h2-color
+		title: H2 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h2-variant
+		title: H2 font variant
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps
+	-
+		id: h2-style
+		title: H2 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h2-l
+		title: H2 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-3-headings
+		title: Level 3 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h3-font
+		title: H3 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h3-size
+		title: H3 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1em
+	-
+		id: h3-weight
+		title: H3 font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h3-color
+		title: H3 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h3-variant
+		title: H3 font variant
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps
+	-
+		id: h3-style
+		title: H3 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h3-l
+		title: H3 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-4-headings
+		title: Level 4 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h4-font
+		title: H4 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h4-size
+		title: H4 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 0.

@@ -1,0 +1,2 @@
+
+Das **Selbst** zeigt sich als **durchgehendes Ich** in christlicher Anschauung versus **Name und Form** im Buddhismus ([[GA069c (7.) VON BUDDHA ZU CHRISTUS, Dresden, 18. November 1910|GA069c/7]]). Diese **fundamentale Unterscheidung** zwischen **verschiedenen spirituellen Traditionen** verdeutlicht **unterschiedliche Auffassungen** der **menschlichen Identität** und des **Wesenskerns** der **individuellen Existenz**.

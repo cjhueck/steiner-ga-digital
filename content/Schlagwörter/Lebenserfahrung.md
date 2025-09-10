@@ -1,0 +1,6 @@
+
+**Lebenserfahrung** umfasst die **umfassende Erkenntnis der Gesetze des menschlichen Daseins** ([[GA053 (21.) DIE JURISTISCHE FAKULTÄT UND DIE THEOSOPHIE, Berlin, 18. Mai 1905|GA053/21]]). Eine **erforderliche Reife ab etwa 35 Jahren** wird als Voraussetzung für **authentische geistige Lehrertätigkeit und Führung** betrachtet ([[GA056 (6.) DIE SOGENANNTEN GEFAHREN DER EINWEIHUNG, Berlin, 12. Dezember 1907|GA056/6]]).
+
+Als **Extrakt und Essenz aus Lebenserlebnissen** werden Erfahrungen zu **Fähigkeiten und Erkenntnissen** umgewandelt ([[GA059 (5.) XIV. KRANKHEIT UND HEILUNG Berlin, 3. März 1910|GA059/5]]). Die **Entwicklung der Persönlichkeit** erfolgt durch **über-intellektuelle Aneignung von Lebenserfahrungen** ([[GA061 (14.) DIE SELBSTERZIEHUNG DES MENSCHEN IM LICHTE DER GEISTESWISSENSCHAFT, Berlin, 14. März 1912|GA061/14]]) und **innere Entwicklung durch Verarbeitung von Erfahrungen, besonders aus Fehlern** ([[GA061 (15.) DAS WESEN DER EWIGKEIT UND DIE NATUR DER MENSCHENSEELE IM LICHTE DER GEISTESWISSENSCHAFT, Berlin, 21. März 1912|GA061/15]]).
+
+Der **Reifungsprozess durch unvollkommene Taten** führt zur **Frage nach der Unsterblichkeit** und zeigt die entwickelnde Wirkung von Lebenserfahrungen auf das menschliche Bewusstsein ([[GA069d (6.) TOD UND UNSTERBLICHKEIT IM LICHTE DER GEISTESWISSENSCHAFT, Wien, 6. Februar 1912|GA069d/6]]).

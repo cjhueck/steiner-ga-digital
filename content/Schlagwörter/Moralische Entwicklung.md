@@ -1,0 +1,12 @@
+
+Die **moralische Entwicklung** zeigt **ethische Verfassung** als zweite Grundvoraussetzung für objektive geistige Erkenntnis ([[GA062 (12.) IRRTÜMER DER GEISTESFORSCHUNG, Berlin, 16. März 1913|GA062/12]]) und die **Anwendung geistiger Prinzipien** zur Selbstlosigkeit in der sinnlichen Welt ([[GA063 (7.) DAS BÖSE IM LICHTE DER ERKENNTNIS VOM GEISTE, Berlin, 15. Januar 1914|GA063/7]]).
+
+**Schöpferische Kräfte** aus der geistigen Welt führen zu Verpflichtungen und ethischem Handeln ([[GA063 (8.) DIE SITTLICHE GRUNDLAGE DES MENSCHENLEBENS, Berlin, 12. Februar 1914|GA063/8]]). **Aus höherer Welt stammende Begriffe** nimmt das Ich in die Bewusstseinsseele auf und trägt sie in die unteren Seelenglieder hinunter ([[GA068b (53.) DER MENSCHLICHE CHARAKTER, Berlin, 29. Oktober 1909|GA068b/53]]).
+
+**Ethische Seelenstimmung** als Voraussetzung für klares geistiges Bewusstsein ([[GA069a (6.) IRRTÜMER DER GEISTESFORSCHUNG, Stuttgart, 19. Februar 1913|GA069a/6]]) und **Wahrhaftigkeit und Lüge** als real wirkende aufbauende oder zerstörende Seelenkräfte ([[GA069d (9.) DIE VERBORGENEN TIEFEN DES SEELENLEBENS, München, 24. Februar 1912|GA069d/9]]) zeigen sich.
+
+Die **Transformation egoistischer Motive** in selbstlose Handlungen durch Karmaverständnis ([[GA069e (5.) WIE BEGRÜNDET MAN THEOSOPHIE, München, 10. Januar 1912|GA069e/5]]) und **sittliche Seelenstimmung** als Grundlage für wahre geistige Erkenntnis ([[GA069e (10.) WAHRHEITEN UND IRRTÜMER DER GEISTESFORSCHUNG, Leipzig, 11. Januar 1913|GA069e/10]]) charakterisieren sie.
+
+**Tieferliegende seelische Kräfte** bestimmen das ethische Handeln zwischen Menschen ([[GA071b (11.) DER MENSCH UND DAS GESCHICHTLICHE UND MORALISCHE LEBEN DER MENSCHHEIT NACH ERGEBNISSEN DER GEISTESWISSENSCHAFT, München, 3. Mai 1918|GA071b/11]]). **Ethische Werte** als reale Keime zukünftiger Welten entwickeln sich in Sterbeprozesse des Menschen hinein ([[GA075-Das Verhältnis der Anthroposophie zur Naturwissenschaft/GA075 (5.) ANTHROPOSOPHIE UND WISSENSCHAFT, Basel, 2. November 1921|GA075/5]]).
+
+**Sittliche Antriebe** müssen aus geistiger Erkenntnis statt aus Instinkten kommen ([[GA077b (11.) AUTOREFERATE ZU DEN VORTRÄGEN UND ANSPRACHEN BEIM SUMMER ART COURSE, Dornach 1921|GA077b/11]]). **Ethische Kräfte** sind in den übersinnlichen Welten mit Naturgesetzen vereint ([[GA084 (3.) Das Seelenleben des Menschen und seine Entwickelung zur Imagination, Inspiration und Intuition, Dornach, 15. April 1923|GA084/3]]).
