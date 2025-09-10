@@ -1,3 +1,219 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* ========================================
+   Custom Steiner GA Styles - Complete Version
+   ======================================== */
+
+/* ========================================
+   Link Styling komplett entfernen
+   ======================================== */
+
+/* Alle Links: Keine Unterlegung, keine Unterstreichung */
+a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* Link Hover-Effekte */
+a:hover {
+  background: none !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+
+/* Spezifisch für Quartz Link-Komponenten */
+.internal-link {
+  background: none !important;
+  text-decoration: none !important;
+  
+  &:hover {
+    background: none !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+  }
+}
+
+/* Content Links */
+.content a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* Navigation/Sidebar Links */
+.sidebar a,
+.sidebar-content a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* Breadcrumb-Links */
+.breadcrumb-container a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* Header/Menu Links */
+.page-header a,
+.nav a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* Table of Contents Links */
+.toc a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* Footer Links */
+.page-footer a {
+  background: none !important;
+  text-decoration: none !important;
+}
+
+/* ========================================
+   Spezifische Quartz-Link-Selektoren
+   ======================================== */
+
+/* Interne Links mit spezifischen Klassen */
+a.internal.alias,
+a.internal.alias:hover,
+a[data-slug],
+a[data-slug]:hover,
+a[role="anchor"],
+a[role="anchor"]:hover,
+a[aria-hidden="true"],
+a[aria-hidden="true"]:hover,
+a.internal,
+a.internal:hover {
+  background: none !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* ========================================
+   Datumsangaben und Metadaten entfernen
+   ======================================== */
+
+/* Datum unter Seitentiteln */
+.content-meta,
+.page-metadata,
+.article-metadata {
+  display: none !important;
+}
+
+/* Lesedauer */
+.reading-time {
+  display: none !important;
+}
+
+/* Datum in Ordneransichten/Dateilisten */
+.folder-content .date,
+.file-list .date,
+.recent-notes .date {
+  display: none !important;
+}
+
+/* Datum in der Sidebar */
+.sidebar .date,
+.file-tree .date {
+  display: none !important;
+}
+
+/* Allgemeine Datums-Selektoren */
+time,
+.datetime,
+.created-date,
+.modified-date,
+.publish-date {
+  display: none !important;
+}
+
+/* ========================================
+   Graphansicht entfernen
+   ======================================== */
+
+/* Graph-Container komplett ausblenden */
+.graph,
+.graph-container,
+#graph-container,
+.interactive-graph {
+  display: none !important;
+}
+
+/* Graph-Button in Navigation */
+.graph-button,
+button[data-graph] {
+  display: none !important;
+}
+
+/* Graph-Tab falls vorhanden */
+.tab-graph,
+.nav-graph {
+  display: none !important;
+}
+
+/* Graph-Canvas und Container */
+canvas[style*="touch-action: none"],
+canvas[style*="cursor: inherit"],
+canvas[width][height],
+div:has(canvas[style*="touch-action: none"]),
+.right canvas,
+.sidebar canvas {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* ========================================
+   H4-Überschriften im Text ausblenden
+   ======================================== */
+
+/* H4 nur im Haupttext ausblenden, nicht im TOC */
+.content h4,
+.page-content h4,
+article h4 {
+  display: none !important;
+}
+
+/* H4 mit ID-Attribut (Quartz-spezifisch) */
+h4[id],
+h4[id] a,
+h4[id] svg {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* H4 im Table of Contents sichtbar lassen */
+.toc h4,
+.table-of-contents h4,
+.toc-container h4 {
+  display: block !important;
+}
+
+/* ========================================
+   "Ordner:" aus Breadcrumb entfernen
+   ======================================== */
+
+/* Falls "Ordner:" in einem eigenen Element ist */
+.breadcrumb-container .folder-prefix,
+.breadcrumbs .folder-prefix,
+.folder-label {
+  display: none !important;
+}
+
+/* Falls es als ::before oder ::after Content eingefügt wird */
+.breadcrumb-element::before,
+.breadcrumb-item::before {
+  content: none !important;
+}
+
+/* Spezifische Klassen für Ordner-Anzeige */
+.breadcrumb-folder-indicator,
+.folder-indicator {
+  display: none !important;
+}
