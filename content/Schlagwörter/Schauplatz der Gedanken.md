@@ -1,4 +1,0 @@
-
-Der **Schauplatz der Gedanken** charakterisiert die **deutsche Eigenart**, das Leben in der gedanklichen Sphäre als **Verbindung zur geistigen Wirklichkeit** zu erleben ([[GA064 (11.) DER SCHAUPLATZ DER GEDANKEN ALS ERGEBNIS DES DEUTSCHEN IDEALISMUS, München, 28. November 1915|GA064/11]]). Diese spezifisch **deutsche Eigentümlichkeit** zeigt sich im Leben in der gedanklichen Welt, wo der **Gedanke zum lebendigen Spiegelbild des Weltgeistes** wird ([[GA070b (3.) DER SCHAUPLATZ DER GEDANKEN ALS ERGEBNIS DES DEUTSCHEN IDEALISMUS IM HINBLICK AUF UNSERE SCHICKSAL- TRAGENDE ZEIT, München, 28. November 1915|GA070b/3]]).
-
-Diese **geistige Veranlagung** ermöglicht es, in den Gedanken nicht nur abstrakte Begriffe zu sehen, sondern **lebendige geistige Realitäten** zu erfahren. Der Schauplatz der Gedanken verdeutlicht die **besondere Mission des deutschen Geistes** in der Entwicklung einer Philosophie, die das Denken als **unmittelbaren Zugang zur Geisteswelt** versteht.

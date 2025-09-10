@@ -1,2 +1,0 @@
-
-Die **Theosophie des Julius** repräsentiert **Schillers frühe idealistische Philosophie** des geistigen Urgrundes und seine **philosophischen Briefe** über paracelsische Weltanschauung und Mikrokosmos-Lehre. Diese Jugendschrift zeigt Schillers frühe Auseinandersetzung mit spirituellen und philosophischen Fragen ([[GA051 (20.) VIERTER VORTRAG, 11. Februar 1905, Schillers Weltanschauung und sein Wallenstein|GA051/20]], [[GA053 (19.) SCHILLER UND DIE GEGENWART, Berlin, 4. Mai 1905|GA053/19]]).

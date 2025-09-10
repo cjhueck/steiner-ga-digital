@@ -1,2 +1,0 @@
-
-Die **Entstehung der drei Raumesdimensionen** ist unmittelbar mit den menschlichen Entwicklungsprozessen verbunden. Die räumliche Orientierung entwickelt sich aus der spezifisch menschlichen Organisation und steht in direktem Zusammenhang mit der Ausbildung des menschlichen Bewusstseins ([[GA082 (2.) ZWEITER VORTRAG DIE STELLUNG DER ANTHROPOSOPHIE IN DEN WISSENSCHAFTEN, Den Haag, 8. April 1922|GA082/2]]).

@@ -1,2 +1,0 @@
-
-Die **Autosuggestion** manifestiert sich in **Schleichs These vom Tod durch bewusste Gedankenwirkung**, die **kritisch widerlegt durch Todesahnungstheorie** wird und die Grenzen rein psychologischer Erklärungsmodelle für Lebensprozesse aufzeigt ([[GA079 (3.) Grundlagen der Anthroposophie, Kristiania (Oslo), 28. November 1921|GA079/3]]).

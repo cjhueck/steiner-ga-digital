@@ -1,2 +1,0 @@
-
-Das **Schweigen der Seele** entsteht durch **vollständiges Auslöschen aller Vorstellungen** nach deren Verstärkung, wodurch ein **inneres Schweigen** entsteht, das tiefer ist als die gewöhnliche Stille ([[GA084 (1.) WAS WOLLTE DAS GOETHEANUM UND WAS SOLL DIE ANTHROPOSOPHIE, Basel, 9. April 1923|GA084/1]]). Es repräsentiert einen **höheren meditativen Zustand** zur **Entwicklung übersinnlicher Wahrnehmung**.

@@ -1,2 +1,0 @@
-
-Die **sechs Grundeigenschaften** - **Unterscheidungskraft, Gedankenkontrolle, Gleichmut, Toleranz, Unbefangenheit und Harmonie** - bilden **fortwährend zu übende Eigenschaften** zur Charakterbildung als **notwendige Vorschule** zum okkulten Leben ([[GA054 (9.) INNERE ENTWICKELUNG, Berlin, 7. Dezember 1905|GA054/9]]). Sie stellen **systematische Seelenübungen** dar, die die **Grundlage geistiger Entwicklung** bilden und **charakterliche Reife** fördern.

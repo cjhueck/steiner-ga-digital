@@ -1,2 +1,0 @@
-
-Die Kant-Laplace-Theorie bietet eine **mechanistische Erklärung** der Weltentstehung aus einem rotierenden Urnebel, die jedoch den **geistigen Experimentator** vergisst ([[GA056 (12.) SONNE, MOND UND STERNE, Berlin, 26. März 1908|GA056/12]]). Sie wird kritisiert als **rein mechanistische Entstehung** des Sonnensystems ohne geistige Kräfte ([[GA069d (10.) DER URSPRUNG DES MENSCHEN IM LICHT DER GEISTESWISSENSCHAFT, München, 26. Februar 1912|GA069d/10]]).

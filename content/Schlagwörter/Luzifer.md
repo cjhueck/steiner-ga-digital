@@ -1,8 +1,0 @@
-
-**Luzifer** verkörpert den **Lichtträger und Entwicklungsprinzip**, das dem **Menschen Freiheit und Selbständigkeit bringt** ([[GA054 (13.) LUZIFER, Berlin, 22. Februar 1906|GA054/13]]) als **zurückgebliebenes Wesen vom früheren Planeten**, das **die Weisheit mit der menschlichen Selbstliebe vermischt** ([[GA055 (4.) DER URSPRUNG DES BÖSEN, Berlin, 22. November 1906|GA055/4]]).
-
-Als **Lichtträger und Bringer der menschlichen Freiheit** erweckt Luzifer **Enthusiasmus für das Göttliche** ([[GA068a (21.) ÜBER LUZIFER, Leipzig, 9. November 1906|GA068a/21]]) und repräsentiert **zurückgebliebene Elohim als Träger von Weisheit und Freiheitsstreben** ([[GA068a (23.) DIE KINDER DES LUZIFER, Leipzig, 14. Dezember 1906|GA068a/23]]).
-
-Diese **zurückgebliebenen Weisheitskräfte** bilden den **Gegenpol zu Jahve** ([[GA068a (26.) DER URSPRUNG DES BÖSEN, Stuttgart, 18. Januar 1907|GA068a/26]]) als **zurückgebliebene Wesen aus dem Kosmos der Weisheit**, die dem **Menschen vorzeitige Selbständigkeit verleihen** ([[GA068a (39.) DER URSPRUNG DES BÖSEN, Kassel, 20. Februar 1908|GA068a/39]]).
-
-Die **Verstärkung der Ich-Wirkung in den drei Leibern** erfolgt **durch luziferische Wesenheiten** ([[GA068c (29.) DAS WESEN DES EGOISMUS (GOETHES «WILHELM MEISTER»), nicht öffentlicher Vortrag; Leipzig, 28. November 1909|GA068c/29]]) und zeigt die ambivalente Rolle Luzifers als sowohl Entwicklungsimpuls als auch Quelle egoistischer Verirrungen.

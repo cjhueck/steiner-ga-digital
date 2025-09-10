@@ -1,2 +1,0 @@
-
-**Ganzheitliche Weltanschauung** der Erde als Geist-Seelenorganismus ([[GA065 (10.) EIN VERGESSENES STREBEN NACH GEISTESWISSENSCHAFT INNERHALB DER DEUTSCHEN GEDANKENENTWICKELUNG, Berlin, 25. Februar 1916|GA065/10]]).

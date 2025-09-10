@@ -1,2 +1,0 @@
-
-Der **Turmbau zu Babel** repräsentiert die **Entstehung der Vielsprachigkeit** durch menschliche Schuld. Diese biblische Erzählung erklärt die sprachliche Differenzierung der Menschheit als Folge menschlicher Hybris ([[GA068a (24.) BIBEL UND WEISHEIT, Fragenbeantwortung, Kassel, 14. Januar 1907|GA068a/24]]).

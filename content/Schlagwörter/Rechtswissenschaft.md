@@ -1,2 +1,0 @@
-
-Die **Rechtswissenschaft** wird als **praktisches Lebensgebiet** mit **fundamentalen Mängeln** charakterisiert ([[GA053 (21.) DIE JURISTISCHE FAKULTÄT UND DIE THEOSOPHIE, Berlin, 18. Mai 1905|GA053/21]]). Sie bildet eine **mittlere Kulturströmung**, die das **Verhältnis von Mensch zu Mensch** in **rechtliche Formen** gießt ([[GA083 (7.) SIEBENTER VORTRAG DIE ZEIT UND IHRE SOZIALE GESTALTUNG, Wien, 8. Juni 1922|GA083/7]]).

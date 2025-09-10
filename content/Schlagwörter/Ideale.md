@@ -1,2 +1,0 @@
-
-**Große Ideale** geben mehr Kraft als kleine und sind **unmittelbar im praktischen Leben** anwendbar ([[GA056 (13.) ERDENANFANG UND ERDENENDE, Berlin, 9. April 1908|GA056/13]]). **Zukunftsideale** wirken als **Entwicklungsprinzip** vom vierzehnten bis einundzwanzigsten Jahr ([[GA068d (24.) DER LEBENSLAUF DES MENSCHEN VOM STANDPUNKT DER GEISTESWISSENSCHAFT, Hannover, 5. November 1908|GA068d/24]]).

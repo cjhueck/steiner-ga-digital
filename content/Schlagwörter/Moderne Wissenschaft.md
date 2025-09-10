@@ -1,2 +1,0 @@
-
-Die **moderne Wissenschaft** ist **empirische Naturforschung** seit Kopernikus, Galilei ohne geistige Dimension ([[GA053 (20.) DIE THEOLOGISCHE FAKULTÄT UND DIE THEOSOPHIE, Berlin, 11. Mai 1905|GA053/20]]) und **Kritik** an materialistischen Wissenschaftsauffassungen als neue Formen des Aberglaubens ([[GA057 (6.) DER ABERGLAUBE VOM STANDPUNKTE DER GEISTESWISSENSCHAFT, Berlin, 10. Dezember 1908|GA057/6]]).

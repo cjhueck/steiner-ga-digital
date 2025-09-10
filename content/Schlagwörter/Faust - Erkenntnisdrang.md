@@ -1,2 +1,0 @@
-- Goethes intensives Streben nach Erkenntnis der Lebensquellen, das sich in Fausts Verzweiflung am Wissen ausdrückt ([[GA057 (13.) DIE RÄTSEL IN GOETHES «FAUST» EXOTERISCH, Berlin, 11. März 1909|GA057/13]])
-- Fausts Suche nach unmittelbarem Zusammenleben mit den Geheimnissen des Daseins ([[GA065 (6.) FAUSTS WELTWANDERUNG UND SEINE WIEDERGEBURT AUS DEM DEUTSCHEN GEISTESLEBEN, Berlin, 3. Februar 1916|GA065/6]])

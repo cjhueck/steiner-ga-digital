@@ -1,2 +1,0 @@
-
-Die **allgemeine Verständlichkeit** bildet eine **Grundforderung**, dass **Geisteswissenschaft unabhängig vom Bildungsgrad für jede Seele zugänglich sein muss**, da spirituelle Wahrheiten nicht das Privileg einer intellektuellen Elite darstellen, sondern allen Menschen entsprechend ihrer seelischen Entwicklung offen stehen sollten ([[GA069e (7.) DIE GEISTESWISSENSCHAFT UND DAS MENSCHLICHE LEBEN, Basel, 26. September 1912|GA069e/7]]).

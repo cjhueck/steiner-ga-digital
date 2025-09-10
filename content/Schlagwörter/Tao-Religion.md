@@ -1,2 +1,0 @@
-
-Die **Tao-Religion** wird sowohl als **ursprüngliche atlantische Religion** der Entwicklung und direkten Gottesverbindung als auch als **chinesische Religion** der ursprünglichen Einheit mit dem Weltgeist charakterisiert. Sie repräsentiert einen spirituellen Weg der unmittelbaren Verbindung mit dem kosmischen Prinzip ohne institutionelle Vermittlung ([[GA054 (7.) DER WEISHEITSKERN IN DEN RELIGIONEN, Berlin, 16. November 1905|GA054/7]], [[GA068a (13.) DER WEISHEITSKERN IN DEN RELIGIONEN, Düsseldorf, 3. Dezember 1905|GA068a/13]]).

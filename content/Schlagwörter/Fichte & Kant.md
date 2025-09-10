@@ -1,1 +1,0 @@
-- Entscheidende Begegnung mit Immanuel Kant und dessen Philosophie ([[GA065 (5.) FICHTES GEIST MITTEN UNTER UNS, Berlin, 16. Dezember 1915|GA065/5]])

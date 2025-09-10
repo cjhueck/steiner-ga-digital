@@ -1,2 +1,0 @@
-
-Die **Amshaspands** manifestieren sich als **zwölf dienende geistige Wesenheiten des Ormuzd**, die den **Tierkreiszeichen und Gehirnnervenpaaren entsprechen** ([[GA060 (9.) ZARATHUSTRA, Berlin, 19. Januar 1911|GA060/9]]). Als **zwölf dienende Göttergeister des Ormuzd** sind **ihre Kräfte in den zwölf Gehirnnerven kristallisiert** und bilden die Verbindung zwischen kosmischen Einflüssen und der menschlichen Nervenorganisation ([[GA069b (8.) ZARATHUSTRA, SEINE LEHRE UND SEINE MISSION, München, 11. Dezember 1910|GA069b/8]]).

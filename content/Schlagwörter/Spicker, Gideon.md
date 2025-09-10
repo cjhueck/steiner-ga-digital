@@ -1,2 +1,0 @@
-
-**Gideon Spicker** war ein **Philosoph und ehemaliger Kapuziner**, der den **"bodenlosen Abgrund"** hinter der **Notwendigkeit des Denkens** erkannte ([[GA066 (1.) GEIST UND STOFF, LEBEN UND TOD, Berlin, 15. Februar 1917|GA066/1]]). Seine Erkenntnis dokumentiert die **Grenzen** des **rein logischen Denkens** und die **Notwendigkeit** einer **erweiterten Erkenntnismethode** für das **Verständnis der Wirklichkeit**.

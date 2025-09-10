@@ -1,2 +1,0 @@
-
-Das Guru-Prinzip umfasst die **Notwendigkeit** eines geistigen Lehrers für die sichere Entwicklung übersinnlicher Fähigkeiten ([[GA054 (9.) INNERE ENTWICKELUNG, Berlin, 7. Dezember 1905|GA054/9]]) und den **älteren orientalischen Weg** zur Geisterkenntnis durch unbedingtes Vertrauen zu einem Lehrer ([[GA080c (8.) DIE ERKENNTNIS DES GEISTIGEN WESENS DER WELT, Den Haag, 3. November 1922|GA080c/8]]).

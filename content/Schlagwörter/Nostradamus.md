@@ -1,2 +1,0 @@
-
-**Bedeutender Arzt und Seher**, der durch **innere Sammlung** und **Betrachtung des Sternenhimmels** **Zukunftsbilder** empfing ([[GA061 (3.) DER SINN DES PROPHETENTUMS, Berlin, 9. November 1911|GA061/3]]) als **historisches Beispiel** für **prophetische Sehergabe** durch **besondere Seelenverfassung** und **meditative Praxis** ([[GA069d (5.) TOD UND UNSTERBLICHKEIT IM LICHTE DER GEISTESWISSENSCHAFT, Kassel, 28. Januar 1912|GA069d/5]]).
