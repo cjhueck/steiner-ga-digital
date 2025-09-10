@@ -1,10 +1,9 @@
 @use "./base.scss";
 
 /* ========================================
-   NUR H4 und Links - Graph erstmal weglassen
+   H4 verstecken
    ======================================== */
 
-/* H4 verstecken */
 h4[id],
 h4[id] a,
 h4[id] svg {
@@ -15,7 +14,10 @@ h4[id] svg {
   padding: 0 !important;
 }
 
-/* Links ohne Hintergrund */
+/* ========================================
+   Links ohne Hintergrund
+   ======================================== */
+
 a.internal.alias,
 a.internal.alias:hover,
 a[data-slug],
@@ -29,10 +31,31 @@ a.internal:hover {
   box-shadow: none !important;
 }
 
-/* Metadaten verstecken */
+/* ========================================
+   Metadaten verstecken
+   ======================================== */
+
 .content-meta,
 .page-metadata,
 .article-metadata,
 .reading-time {
+  display: none !important;
+}
+
+/* ========================================
+   Graph-Ansicht entfernen (OHNE :has())
+   ======================================== */
+
+/* Einfache Canvas-Selektoren */
+canvas {
+  display: none !important;
+}
+
+.graph,
+.graph-container,
+#graph-container,
+.interactive-graph,
+.right canvas,
+.sidebar canvas {
   display: none !important;
 }
