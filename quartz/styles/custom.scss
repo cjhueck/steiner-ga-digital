@@ -1,12 +1,12 @@
 @use "./base.scss";
 
 /* ========================================
-   H4 verstecken (nur wenn hide-h4 Klasse gesetzt)
+   H4 permanent verstecken
    ======================================== */
 
-.hide-h4 h4[id],
-.hide-h4 h4[id] a,
-.hide-h4 h4[id] svg {
+h4[id],
+h4[id] a,
+h4[id] svg {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
