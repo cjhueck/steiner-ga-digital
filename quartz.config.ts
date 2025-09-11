@@ -69,17 +69,7 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage({
-        head: [
-          {
-            tag: "script",
-            attributes: { 
-              src: "/static/js/h4-toggle.js", 
-              defer: true 
-            }
-          }
-        ]
-      }),
+      Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
