@@ -1,18 +1,10 @@
 @use "./base.scss";
 
 /* ========================================
-   H4 nur im Content-Bereich verstecken
+   Nur H4-Überschriften verstecken (sehr spezifisch)
    ======================================== */
 
-.page-content h4[id],
-.page-content h4[id] a,
-.page-content h4[id] svg,
-article h4[id],
-article h4[id] a,
-article h4[id] svg,
-main h4[id],
-main h4[id] a,
-main h4[id] svg {
+#quartz-body h4 {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
