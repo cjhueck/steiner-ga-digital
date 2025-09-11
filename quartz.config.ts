@@ -1,4 +1,3 @@
-import H4Toggle from "./quartz/components/H4Toggle"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -70,7 +69,17 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({
+        head: [
+          {
+            tag: "script",
+            attributes: { 
+              src: "/static/js/h4-toggle.js", 
+              defer: true 
+            }
+          }
+        ]
+      }),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({

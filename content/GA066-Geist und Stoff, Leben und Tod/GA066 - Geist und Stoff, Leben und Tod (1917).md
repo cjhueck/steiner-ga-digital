@@ -7,6 +7,7 @@ Bibliographie-Nr. 66
 Alle Rechte bei der Rudolf Steiner-Nachlaßverwaltung, Dornach/Schweiz
 (C)1961 by Rudolf Steiner-Nachlaß Verwaltung, Dornach/Schweiz
 Printed in Germany by Konkordia Druck GmbH, Bühl/Baden
+
 ISBN 3-7274-0660-7
   
 ___

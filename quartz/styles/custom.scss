@@ -15,6 +15,49 @@
 }
 
 /* ========================================
+   Toggle Button Styling
+   ======================================== */
+
+#h4-toggle-container {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  background: var(--gray);
+  border: 1px solid var(--border);
+}
+
+#h4-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: left;
+  padding: 4px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+#h4-toggle-btn:hover {
+  background-color: var(--accent);
+  color: var(--background);
+}
+
+#h4-toggle-btn .toggle-icon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+#h4-toggle-btn.active .toggle-icon {
+  transform: rotate(180deg);
+}
+
+/* ========================================
    Links ohne Hintergrund
    ======================================== */
 
@@ -57,4 +100,13 @@ canvas {
 .right canvas,
 .sidebar canvas {
   display: none !important;
+}
+
+/* ========================================
+   JavaScript (inline) - nur als Fallback
+   ======================================== */
+
+.h4-toggle-script::before {
+  content: "";
+  /* Das folgende JavaScript sollte besser als separate .js Datei eingebunden werden */
 }
