@@ -1,10 +1,10 @@
 @use "./base.scss";
 
 /* ========================================
-   Menu-Fonts und Abstände anpassen
+   Menu-Fonts anpassen
    ======================================== */
 
-/* Alle Menu-Fonts nicht fett, kleinere Zeilenabstände */
+/* Alle Menu-Fonts nicht fett */
 .sidebar,
 .left,
 .right,
@@ -13,7 +13,6 @@
 .table-of-contents,
 nav {
   font-weight: normal !important;
-  line-height: 1.2 !important;
 }
 
 .sidebar a,
@@ -24,18 +23,6 @@ nav {
 .table-of-contents a,
 nav a {
   font-weight: normal !important;
-  line-height: 1.2 !important;
-  margin-bottom: 1px !important;
-}
-
-.sidebar li,
-.left li,
-.right li,
-.explorer li,
-.toc li,
-.table-of-contents li {
-  margin-bottom: 2px !important;
-  line-height: 1.2 !important;
 }
 
 /* Linkes Seitenmenu - Ordner vs. Dateien */
@@ -45,7 +32,6 @@ nav a {
 .sidebar .folder-title {
   font-size: 0.9rem !important;
   font-weight: normal !important;
-  margin-left: 0 !important;
 }
 
 .explorer .file-link,
@@ -56,40 +42,7 @@ nav a {
 .sidebar li a:not(.folder-title) {
   font-size: 0.8rem !important;
   font-weight: normal !important;
-  margin-left: 0 !important;
-}
-
-/* Erste Zeile nicht eingerückt */
-.explorer > ul > li:first-child,
-.sidebar > ul > li:first-child,
-.toc > ul > li:first-child {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-/* ========================================
-   Hover-Previews deaktivieren
-   ======================================== */
-
-.popover,
-.popover-hint,
-.tooltip,
-[data-popover],
-.preview-popup {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-a[data-slug]:hover::after,
-a.internal:hover::after,
-a:hover .popover {
-  display: none !important;
-}
-
-#popover-container,
-.popover-container,
-.preview-container {
-  display: none !important;
+  margin-left: 4px !important;
 }
 
 /* ========================================
