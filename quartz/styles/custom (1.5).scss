@@ -1,51 +1,6 @@
 @use "./base.scss";
 
 /* ========================================
-   Menu-Fonts anpassen
-   ======================================== */
-
-/* Alle Menu-Fonts nicht fett */
-.sidebar,
-.left,
-.right,
-.explorer,
-.toc,
-.table-of-contents,
-nav {
-  font-weight: normal !important;
-}
-
-.sidebar a,
-.left a,
-.right a,
-.explorer a,
-.toc a,
-.table-of-contents a,
-nav a {
-  font-weight: normal !important;
-}
-
-/* Linkes Seitenmenu - Ordner vs. Dateien */
-.explorer .folder-outer,
-.explorer .folder-title,
-.sidebar .folder-outer,
-.sidebar .folder-title {
-  font-size: 0.9rem !important;
-  font-weight: normal !important;
-}
-
-.explorer .file-link,
-.explorer .internal,
-.sidebar .file-link,
-.sidebar .internal,
-.explorer li a:not(.folder-title),
-.sidebar li a:not(.folder-title) {
-  font-size: 0.8rem !important;
-  font-weight: normal !important;
-  margin-left: 4px !important;
-}
-
-/* ========================================
    Links ohne Hintergrund
    ======================================== */
 
