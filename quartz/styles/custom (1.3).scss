@@ -1,0 +1,60 @@
+@use "./base.scss";
+
+/* ========================================
+   H4 permanent verstecken
+   ======================================== */
+
+h4[id],
+h4[id] a,
+h4[id] svg {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ========================================
+   Links ohne Hintergrund
+   ======================================== */
+
+a.internal.alias,
+a.internal.alias:hover,
+a[data-slug],
+a[data-slug]:hover,
+a.internal,
+a.internal:hover {
+  background: none !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* ========================================
+   Metadaten verstecken
+   ======================================== */
+
+.content-meta,
+.page-metadata,
+.article-metadata,
+.reading-time {
+  display: none !important;
+}
+
+/* ========================================
+   Graph-Ansicht entfernen
+   ======================================== */
+
+canvas {
+  display: none !important;
+}
+
+.graph,
+.graph-container,
+#graph-container,
+.interactive-graph,
+.right canvas,
+.sidebar canvas {
+  display: none !important;
+}
