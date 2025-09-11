@@ -1,18 +1,12 @@
 @use "./base.scss";
 
 /* ========================================
-   H4 nur im Content-Bereich verstecken
+   H4 permanent verstecken (im Content)
    ======================================== */
 
-.page-content h4[id],
-.page-content h4[id] a,
-.page-content h4[id] svg,
-article h4[id],
-article h4[id] a,
-article h4[id] svg,
-main h4[id],
-main h4[id] a,
-main h4[id] svg {
+h4[id],
+h4[id] a,
+h4[id] svg {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
